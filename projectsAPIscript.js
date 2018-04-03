@@ -3,6 +3,7 @@ getTimeSince('alexander7161/MyIndividualHealthCare', 'MIHCTime');
 getTimeSince('Futuramistic/Bot', 'AlzheimerAssistant');
 getTimeSince('alexander7161/Habitat-Simulator', 'Habitat');
 getTimeSince('alexander7161/stratford', 'stratford');
+getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
 
 }
 function getTimeSince(repo, elementID)
@@ -26,9 +27,24 @@ function getTimeSince(repo, elementID)
 //    console.log(date1);
 //    console.log(date2);
     timeDiff = Math.abs(date2.getTime() - date1.getTime());
-    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+    if((timeDiff/1000)<150000) {
+      var diff = Math.ceil(timeDiff / (1000 * 3600));
+      if(diff == 1) {
+        diff += " hour ago";
+      } else {
+        diff += " hours ago";
+      }
+    } else {
+      var diff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+      if(diff == 1) {
+        diif += " day ago";
+      }
+      else {
+      diff += " days ago"
+    }
+    }
   var element = document.getElementById(elementID);
-  element.innerHTML = "Last updated " + diffDays + " days ago";
+  element.innerHTML = "Last updated " + diff;
 }
   // Send request
   request.send();
