@@ -1,7 +1,8 @@
 <head>
+  <title>Alexander Davis - Home</title>
   <script src = "/script.js" type = "text/javascript"/></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0E3440" />
+  <meta name="theme-color" content="#39D1FF" />
   <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Bootstrap core CSS -->
@@ -18,34 +19,35 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<div class="jumbotron text-center visible-lg visible-md visible-sm container-fluid" id="title">
-  <div class="row">
-    <div class="col-sm-3" id="titleSmall" onclick="location.href='projects.html';">
-      <h2>Projects</h2>
-    </div>
-    <div class="col-sm-6" id="titleText" onclick="location.href='index.html';">
-  <h1>Alexander Davis</h1>
-</div>
-<div class="col-sm-3" id="titleSmall" onclick="location.href='about.html';">
-  <h2>About</h2>
-</div>
-</div>
-</div>
-<div class="jumbotron text-center visible-xs container-fluid" id="title">
-  <div id="titleText" onclick="location.href='index.html';">
-  <h1>Alexander Davis</h1>
-</div>
-<div class="row">
-  <div class="col-xs-6" id="titleSmall" onclick="location.href='projects.html';">
-    <h2>Projects</h2>
-  </div>
-  <div class="col-xs-6" id="titleSmall" onclick="location.href='about.html';">
-    <h2>About</h2>
-  </div>
-</div>
-</div>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
  </head>
+
+ <div class="jumbotron text-center visible-lg visible-md visible-sm container-fluid unselectable title" style="background:#39D1FF !important; color: #0E3440;">
+   <div class="row">
+     <div class="col-sm-3" id="titleSmall" onclick="location.href='projects.html';">
+       <h2>Projects</h2>
+     </div>
+     <div class="col-sm-6" id="titleText" onclick="DarkenBar()">
+   <h1>Alexander Davis</h1>
+ </div>
+ <div class="col-sm-3" id="titleSmall" onclick="location.href='about.html';">
+   <h2>About</h2>
+ </div>
+ </div>
+ </div>
+ <div class="jumbotron text-center visible-xs container-fluid unselectable title" style="background:#39D1FF !important; color: #0E3440;">
+   <div id="titleText" onclick="DarkenBar()">
+   <h1>Alexander Davis</h1>
+ </div>
+ <div class="row">
+   <div class="col-xs-6" id="titleSmall" onclick="location.href='projects.html';">
+     <h2>Projects</h2>
+   </div>
+   <div class="col-xs-6" id="titleSmall" onclick="location.href='about.html';">
+     <h2>About</h2>
+   </div>
+ </div>
+ </div>
 
 <body>
 <div class="jumbotron container" onclick="Hello()">
