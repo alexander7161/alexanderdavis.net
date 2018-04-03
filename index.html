@@ -18,11 +18,18 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
  </head>
 
- <div class="jumbotron text-center visible-lg visible-md visible-sm container-fluid unselectable title" style="background:#39D1FF !important; color: #0E3440;">
+ <div class="jumbotron text-center visible-lg visible-md visible-sm container-fluid title"
+ style="background:#39D1FF !important; color: #0E3440; -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ -o-user-select: none;
+ user-select: none;">
    <div class="row">
      <div class="col-sm-3" id="titleSmall" onclick="location.href='projects.html';">
        <h2>Projects</h2>
@@ -35,7 +42,13 @@
  </div>
  </div>
  </div>
- <div class="jumbotron text-center visible-xs container-fluid unselectable title" style="background:#39D1FF !important; color: #0E3440;">
+ <div class="jumbotron text-center visible-xs container-fluid unselectable title" style="background:#39D1FF !important; color: #0E3440; -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ -o-user-select: none;
+ user-select: none;">
    <div id="titleText" onclick="DarkenBar()">
    <h1>Alexander Davis</h1>
  </div>
@@ -50,10 +63,50 @@
  </div>
 
 <body>
-<div class="jumbotron container" onclick="Hello()">
+<div class="jumbotron container">
   <h1 class="display-4">Hello!</h1>
   <hr class="my-4">
-  <p class="lead">Developer.</p>
-
+  <p class="lead">I am a student and developer based in London. Take a look at my recent projects.</p>
 </div>
+
 </body>
+
+
+<!--Footer-->
+<footer class="page-footer font-small indigo pt-0 navbar-fixed-bottom">
+
+    <!--Footer Links-->
+    <div class="container">
+
+        <!--First row-->
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-12 py-5">
+
+                <div class="flex-center">
+
+                    <!--GitHub-->
+                    <a class="ins-ic" href="https://github.com/alexander7161">
+                        <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Lastfm-->
+                    <a class="pin-ic" href="https://www.last.fm/user/alexander7161">
+                        <i class="fa fa-lastfm fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <!--/First column-->
+        </div>
+        <!--/First row-->
+    </div>
+    <!--/Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright: Alexander Davis
+    </div>
+    <!--/Copyright-->
+
+</footer>
+<!--/Footer-->
