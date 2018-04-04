@@ -4,6 +4,8 @@ getTimeSince('Futuramistic/Bot', 'AlzheimerAssistant');
 getTimeSince('alexander7161/Habitat-Simulator', 'Habitat');
 getTimeSince('alexander7161/stratford', 'stratford');
 getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
+getTimeSince('alexander7161/ClosingTime-Android', 'closingTime-Android');
+
 
 }
 function getTimeSince(repo, elementID)
