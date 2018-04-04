@@ -29,7 +29,14 @@ function getTimeSince(repo, elementID)
 //    console.log(date1);
 //    console.log(date2);
     timeDiff = Math.abs(date2.getTime() - date1.getTime());
-    if((timeDiff/1000)<150000) {
+    if((timeDiff/1000)<3600) {
+      var diff = Math.ceil(timeDiff / (1000*60));
+      if(diff == 1) {
+        diff += " minute ago";
+      } else {
+        diff += " minutes ago";
+      }
+    } else if((timeDiff/1000)<86400) {
       var diff = Math.ceil(timeDiff / (1000 * 3600));
       if(diff == 1) {
         diff += " hour ago";
