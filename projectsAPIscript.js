@@ -37,7 +37,7 @@ function getTimeSince(repo, elementID)
     } else {
       var diff = Math.ceil(timeDiff / (1000 * 3600 * 24));
       if(diff == 1) {
-        diif += " day ago";
+        diff += " day ago";
       }
       else {
       diff += " days ago"
