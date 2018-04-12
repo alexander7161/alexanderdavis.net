@@ -2,7 +2,7 @@ window.onload = function() {
 getTimeSince('alexander7161/MyIndividualHealthCare', 'MIHCTime');
 getTimeSince('Futuramistic/Bot', 'AlzheimerAssistant');
 getTimeSince('alexander7161/SprogGo', 'sprogGo');
-getTimeSince('alexander7161/stratford', 'stratford');
+getTimeSince('alexander7161/propertyExplorer', 'propertyExplorer');
 getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
 getTimeSince('alexander7161/ClosingTime-Android', 'closingTime-Android');
 
