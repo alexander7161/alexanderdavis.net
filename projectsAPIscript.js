@@ -5,6 +5,7 @@ getTimeSince('alexander7161/MyIndividualHealthCare', 'MIHCTime');
 getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
 getTimeSince('alexander7161/PropertyExplorer', 'propertyExplorer');
 getTimeSince('alexander7161/ClosingTime-Android', 'closingTime-Android');
+getTimeSince('alexander7161/ClosingTime-Web', 'closingTime-Web');
 
 
 }
