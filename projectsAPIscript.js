@@ -6,6 +6,8 @@ getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
 getTimeSince('alexander7161/PropertyExplorer', 'propertyExplorer');
 getTimeSince('alexander7161/ClosingTime-Android', 'closingTime-Android');
 getTimeSince('alexander7161/ClosingTime-Web', 'closingTime-Web');
+getTimeSince('alexander7161/shappy', 'shappy');
+
 
 
 }
