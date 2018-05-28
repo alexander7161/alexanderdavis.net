@@ -9,3 +9,7 @@
 #titleText {
   cursor:pointer;
 }
+.card-link, .card-link:hover {
+    text-decoration: none;
+    color: #212529;
+}
