@@ -20,8 +20,7 @@ function DarkenBar() {
       break;
     default:
       color = "#39D1FF";
-      break;
-  }
+      break;}
   colorIndex++;
   document.querySelector('meta[name="theme-color"]').setAttribute("content",color);
   titles[i].style.backgroundColor = color;
