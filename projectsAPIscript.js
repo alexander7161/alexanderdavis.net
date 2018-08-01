@@ -5,7 +5,7 @@ window.onload = function () {
   getTimeSince('alexander7161/alexanderdavis.net', 'alexanderDavisWebsite');
   getTimeSince('alexander7161/PropertyExplorer', 'propertyExplorer');
   getTimeSince('alexander7161/ClosingTime-Android', 'closingTime-Android');
-  getTimeSince('alexander7161/ClosingTime-Web', 'closingTime-Web');
+  getTimeSince('alexander7161/ClosingTime-React', 'closingTime-React');
   getTimeSince('alexander7161/shappy', 'shappy');
 }
 
@@ -14,7 +14,7 @@ function getTimeSince(repo, elementID) {
   var request = new XMLHttpRequest();
 
   // Open a new connection, using the GET request on the URL endpoint
-  request.open('GET', 'http://api.github.com/repos/' + repo + '/commits', true);
+  request.open('GET', 'https://api.github.com/repos/' + repo + '/commits', true);
 
   request.onload = function () {
     // Begin accessing JSON data here
